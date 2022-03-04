@@ -18,28 +18,24 @@ function GetMap({latitude, longitude}) {
       lat: 38.7577,
       lng: -93.7405
     },
-    zoom: 10
+    zoom: 13
   }
 
   return (
-<div style={{ height: '80vh', width: '100%' }}>
+<div style={{ height: '85vh', width: '100%' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
-        
-          <Marker 
-          lat={38.770939}
-          lng={-93.761933}
-          color={"red"}          
-          />
-                    <Marker 
+          <Marker //key={park.id}
           lat={38.757739}
           lng={-93.741559}
-          color={"red"}          
           />
-        
+          <Marker
+          lat={38.770939}
+          lng={-93.761933}
+          />
         
       </GoogleMapReact>
     </div>
