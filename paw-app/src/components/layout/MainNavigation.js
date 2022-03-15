@@ -2,10 +2,8 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import classes from './MainNavigation.module.css';
-import FavoritesContext from '../../store/favorites-context';
 
 function MainNavigation() {
-  const favoritesCtx = useContext(FavoritesContext);
 
   return (
     <header className={classes.header}>
@@ -16,7 +14,7 @@ function MainNavigation() {
             <Link to='/how-it-works'>How It Works</Link>
           </li>
           <li>
-            <Link to='/all-meetup'>Data</Link>
+            <Link to='/data'>Data</Link>
           </li>
           <li>
             <Link to='/get-started'>Get Started</Link>
