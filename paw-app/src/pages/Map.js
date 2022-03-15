@@ -19,7 +19,7 @@ function GetMap({latitude, longitude}) {
       lat: 39.0997,
       lng: -94.578331
     },
-    zoom: 10
+    zoom: 13
   }
 
   return (
