@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
 import Card from '../ui/Card';
-import classes from './MeetupItem.module.css';
+import classes from './CardItem.module.css';
 
 function MeetupItem(props) {
 
